@@ -58,8 +58,9 @@ body
 }
 
 footer{
+	margin-top: 475px;
 	color: white;
-	background-color:rgba(45,45,45,0.66);
+	background-color:rgba(45,45,45,0.9);
 	background-position:center;
 	
 	padding-bottom: 80px;
