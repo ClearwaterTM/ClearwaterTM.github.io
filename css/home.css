@@ -74,6 +74,11 @@ nav a:hover
 	background-color: rgba(130,130,130,0.5);
 }
 
+
+nav a:link
+{
+	color:gray;
+}
 nav a:visited
 {
 	color:gray;
