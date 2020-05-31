@@ -1,10 +1,15 @@
+/* Our stylesheet for the site.*/
+
+
+/* Transition/fade-in effect for when the page loads. */
 @keyframes fadein
 {
 	from{ opacity: 0}
 	to {opacity: 1}
-	
+
 }
 
+/* Main elements */
 
 nav
 {
@@ -38,6 +43,63 @@ body
 
 }
 
+footer{
+	margin-top: 20%;
+	color: white;
+	background-color:rgba(45,45,45,0.9);
+	background-position:center;
+
+	padding-bottom: 80px;
+	margin-bottom: -80px;
+
+}
+
+footer img
+{
+	height: 5%;
+	width: 5%;
+	display:flex;
+	justify-content:center;
+}
+
+/* Classes */
+
+nav a
+{
+	text-decoration:none;
+	transition: 0.3s;
+}
+nav a:hover
+{
+	background-color: rgba(130,130,130,0.5);
+}
+
+nav a:visited
+{
+	color:gray;
+}
+
+.featureblock1
+{
+	margin-top:15%;
+	background-color:rgba(235,95,0,0.8);
+	border:2px solid rgba(235,95,0,0.1);
+	border-radius: 10px;
+	color:white;
+}
+
+.featureblock1 h3
+{
+	margin-right:50%;
+}
+
+.featureblock1 li,ul
+{
+	list-style-type:square;
+	margin: 0 auto;
+	text-align: left;
+}
+
 .main-container
 {
 	background-color:rgba(0,0,0,0.35);
@@ -49,33 +111,13 @@ body
 .flavortext
 {
 	display: inline-block;
-	
+
 	margin-left: 15%;
 	margin-top: 25%;
 	color: white;
 	font-size: 42px;
 
 }
-
-footer{
-	margin-top: 475px;
-	color: white;
-	background-color:rgba(45,45,45,0.9);
-	background-position:center;
-	
-	padding-bottom: 80px;
-	margin-bottom: -80px;
-	
-}
-
-footer img
-{
-	height: 5%;
-	width: 5%;
-	display:flex;
-	justify-content:center;
-}
-
 .download-links
 {
 	display:grid;
@@ -103,8 +145,8 @@ footer img
 
 .page-button
 {
-	
-	
+
+
 	padding: 15px 80px 10px 60px;
 	color: rgba(0,0,0,1);
 	text-decoration: none;
