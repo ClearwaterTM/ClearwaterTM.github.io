@@ -48,13 +48,13 @@ body
 }
 
 footer{
-	margin-top: 20%;
+	margin-top: 25%;
 	color: white;
 	background-color:rgba(45,45,45,0.9);
 	background-position:center;
 
-	padding-bottom: 80px;
-	margin-bottom: -80px;
+	padding-bottom: 75px;
+	margin-bottom: -100px;
 
 }
 
@@ -66,7 +66,11 @@ footer img
 	justify-content:center;
 }
 
-/* Classes */
+h4 p
+{
+	font-size: 16px;
+
+}
 
 nav a
 {
@@ -88,7 +92,14 @@ nav a:visited
 	color:gray;
 }
 
-.featureblock1
+code
+{
+	background-color: black;
+	font-size: 14px;
+}
+
+/* Classes */
+.featureblock
 {
 	margin-top:15%;
 	background-color:rgba(235,95,0,0.8);
@@ -109,6 +120,14 @@ nav a:visited
 	text-align: left;
 }
 
+.prerequisites
+{
+	border: 1px solid gray;
+	border-radius: 5px;
+	width:33%;
+
+}
+
 .notyetready
 {
 	display: inline-block;
@@ -123,10 +142,36 @@ nav a:visited
 .main-container
 {
 	background-color:rgba(0,0,0,0.35);
-	height:1000px;
+	height:auto;
 	width:100%;
 }
 
+.docsbody
+{
+	background-image: none;
+	background-color: white;
+}
+
+.docsblock
+{
+	font-size: 18px;
+	font-family: 'Titillium Web';
+	background-color:rgba(145,145,145,0.8);
+	border:2px solid rgba(235,95,0,0.1);
+	color:white;
+	margin-bottom:-15%;
+}
+
+.docsblock ul
+{
+	list-style: none;
+	line-height: 1px;
+	margin: 0 0 35px 0;
+}
+.docsblock ol ol li
+{
+	list-style-type: upper-roman;
+}
 
 .flavortext
 {
