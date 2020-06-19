@@ -101,11 +101,13 @@ code
 /* Classes */
 .featureblock
 {
+	text-align:center;
 	margin-top:15%;
 	background-color:rgba(235,95,0,0.8);
 	border:2px solid rgba(235,95,0,0.1);
 	border-radius: 10px;
 	color:white;
+	height:600px;
 }
 
 .featureblock1 h3
@@ -120,11 +122,12 @@ code
 	text-align: left;
 }
 
-.prerequisites
+
+.prerequisites li
 {
-	border: 1px solid gray;
-	border-radius: 5px;
 	width:33%;
+	height: 30px;
+	margin: 5px 0;
 
 }
 
@@ -142,7 +145,7 @@ code
 .main-container
 {
 	background-color:rgba(0,0,0,0.35);
-	height:auto;
+	height:100%;
 	width:100%;
 }
 
@@ -176,6 +179,7 @@ code
 .flavortext
 {
 	display: inline-block;
+	text-align:center;
 
 	margin-left: 10%;
 	margin-right:10%;
